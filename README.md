@@ -12,14 +12,11 @@ Imported https://github.com/pancakeswap/pancake-info-api
 
 ## Packages
 
-- `uranus-uikit` : React components used to build the VVS UI
-- `uranus-eslint-config` : An ESLint config for VVS, with Typescript and Prettier support
-- `uranus-frontend` : Main VVS web app
-- `uranus-info-api` : express nodejs API implementation for VVS on-chain data query
+- `uranus-uikit` : React components used to build the URANUS UI
+- `uranus-eslint-config` : An ESLint config for URANUS, with Typescript and Prettier support
+- `uranus-frontend` : Main URANUS web app
 - `uranus-prelaunch` : prelaunch landing page with count down clock
-- `uranus-profile-sdk` : Handy functions to retrieve data for VVS Profile system
 - `uranus-swap-sdk`: Handy functions to retrieve data for VVS contracts
-- `token-lists` : Main VVS token list and tools to validate it
 
 ## How to use
 
@@ -45,17 +42,6 @@ lerna run build --scope=uranus-uikit
 
 ```
 lerna run build --scope=uranus-swap-sdk
-```
-### Build `uranus-info-api`
-
-```
-lerna run build --scope=uranus-info-api
-```
-
-### Start `uranus-info-api`
-
-```
-lerna run start:dev --stream --scope=uranus-info-api
 ```
 
 ### Build `uranus-frontend`
