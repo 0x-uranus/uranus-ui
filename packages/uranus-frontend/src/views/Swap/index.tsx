@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import styled from 'styled-components'
 import { CurrencyAmount, JSBI, Token, Trade } from 'uranus-swap-sdk'
-import { Button, Text, ArrowUpDownIcon, Box, useModal, Flex } from 'uranus-uikit'
+import { Button, Text, ArrowUpDownIcon, Box, useModal, Flex} from 'uranus-uikit'
 import { useIsTransactionUnsupported } from 'hooks/Trades'
 import UnsupportedCurrencyFooter from 'components/UnsupportedCurrencyFooter'
 import { RouteComponentProps } from 'react-router-dom'
